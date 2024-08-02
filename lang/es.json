@@ -1,0 +1,41 @@
+{
+  "BOILERPLATE": {
+    "Ability": {
+      "Str": { "long": "Fuerza", "abbr": "fue" },
+      "Con": { "long": "Constitución", "abbr": "con" },
+      "Dex": { "long": "Destreza", "abbr": "des" },
+      "Int": { "long": "Inteligencia", "abbr": "int" },
+      "Wis": { "long": "Sabiduría", "abbr": "sab" },
+      "Cha": { "long": "Carisma", "abbr": "car" }
+    },
+    "SheetLabels": {
+      "Actor": "Hoja de Personaje de IotCT",
+      "Item": "Hoja de Artículo de IotCT"
+    },
+    "Item": {
+      "Spell": {
+        "SpellLVL": "Hechizos de {level} nivel",
+        "AddLVL": "Añadir NVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Fuente",
+      "Toggle": "Alternar Efecto",
+      "Temporary": "Efectos Temporales",
+      "Passive": "Efectos Pasivos",
+      "Inactive": "Efectos Inactivos"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "character": "Personaje",
+      "npc": "PNJ"
+    },
+    "Item": {
+      "item": "Artículo",
+      "feature": "Caracterísitca",
+      "spell": "Hechizo"
+    }
+  }
+}

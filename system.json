@@ -1,0 +1,60 @@
+{
+  "id": "iotct",
+  "title": "Instruments of the Chrysanthemum Throne (unofficial)",
+  "description": "The unofficial IotCT system for FoundryVTT, based on Boilerplate",
+  "authors": [
+    {
+      "name": "Asacolips",
+      "discord": "asacolips"
+    },
+    {
+      "name": "Lee Talman",
+      "discord": ".pizzaWizard"
+    },
+    {
+      "name": "Grendel",
+      "discord": "niputaidea"
+    }
+  ],
+  "url": "TO-DO Replace this with a link to your public repository",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/iotct/assets/anvil-impact.png",
+      "thumbnail": "systems/iotct/assets/anvil-impact.png"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11.315"
+  },
+  "esmodules": ["module/iotct.mjs"],
+  "styles": ["css/iotct.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "TODO - Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "TODO - This must link to a .zip file of the current version",
+  "background": "systems/iotct/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}
