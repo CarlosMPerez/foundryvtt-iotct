@@ -16,7 +16,7 @@
       "discord": "niputaidea"
     }
   ],
-  "url": "TO-DO Replace this with a link to your public repository",
+  "url": "https://github.com/CarlosMPerez/foundryvtt-iotct",
   "license": "LICENSE.txt",
   "readme": "README.md",
   "bugs": "Replace this with a link to file issues or tickets",
@@ -50,11 +50,11 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "TODO - Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
-  "download": "TODO - This must link to a .zip file of the current version",
+  "manifest": "https://github.com/CarlosMPerez/foundryvtt-iotct/blob/e44260868fd04fb58f58e9d8a13ee392e4a0fc0f/system.json",
+  "download": "https://github.com/CarlosMPerez/foundryvtt-iotct/archive/refs/heads/main.zip",
   "background": "systems/iotct/assets/anvil-impact.png",
   "gridDistance": 5,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power"
+  "primaryTokenAttribute": "vitality",
+  "secondaryTokenAttribute": "instrument-power"
 }

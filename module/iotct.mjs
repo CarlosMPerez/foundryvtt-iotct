@@ -6,7 +6,7 @@ import { IotCTActorSheet } from "./sheets/actor-sheet.mjs";
 import { IotCTItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { BOILERPLATE } from "./helpers/config.mjs";
+import { IOTCT_Constants } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -22,16 +22,16 @@ Hooks.once("init", function () {
   };
 
   // Add custom constants for configuration.
-  CONFIG.BOILERPLATE = BOILERPLATE;
+  CONFIG.IOTCT_Constants = IOTCT_Constants;
 
   /**
    * Set an initiative formula for the system
    * @type {String}
-   */
   CONFIG.Combat.initiative = {
-    formula: "1d20 + @abilities.dex.mod",
-    decimals: 2,
+    formula: "1d8",
+    decimals: 0,
   };
+ */
 
   // Define custom Document classes
   CONFIG.Actor.documentClass = IotCTActor;
@@ -46,12 +46,12 @@ Hooks.once("init", function () {
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("iotct", IotCTActorSheet, {
     makeDefault: true,
-    label: "BOILERPLATE.SheetLabels.Actor",
+    label: "IOTCT.SheetLabels.Actor",
   });
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("iotct", IotCTItemSheet, {
     makeDefault: true,
-    label: "BOILERPLATE.SheetLabels.Item",
+    label: "IOTCT.SheetLabels.Item",
   });
 
   // Preload Handlebars templates.

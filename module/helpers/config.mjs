@@ -1,9 +1,10 @@
-export const BOILERPLATE = {};
+export const IOTCT_Constants = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
+/*
 BOILERPLATE.abilities = {
   str: 'BOILERPLATE.Ability.Str.long',
   dex: 'BOILERPLATE.Ability.Dex.long',
@@ -21,3 +22,4 @@ BOILERPLATE.abilityAbbreviations = {
   wis: 'BOILERPLATE.Ability.Wis.abbr',
   cha: 'BOILERPLATE.Ability.Cha.abbr',
 };
+*/
